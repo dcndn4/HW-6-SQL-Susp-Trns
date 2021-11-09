@@ -1,4 +1,7 @@
 #### *Sql_HW_6 which is related to Unit 7*
+
+![Focus on Fraud](main/Images/credit_card_fraudster.jpg)
+
 # Looking for Suspicious Transactions
 
 This file accompanies Visual Data Analysis notebook being provided to my FinTech Company CFO.
@@ -46,7 +49,7 @@ The remaining questions in this section are still under investigation.
 
 Regarding the transactions of customers with cardholder ids of 2 and 18, their  
 
-![Cardholder 2 Transactions] (main/Images/CH%202%20Trns.png)
+![Cardholder 2 Transactions](main/Images/CH%202%20Trns.png)
 
 # Technical Notes
 

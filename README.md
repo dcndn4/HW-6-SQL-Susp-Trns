@@ -46,8 +46,7 @@ The remaining questions in this section are still under investigation.
 
 Regarding the transactions of customers with cardholder ids of 2 and 18, their  
 
-
-
+![Cardholder 2 Transactions] (main/Images/CH%202%20Trns.png)
 
 # Technical Notes
 

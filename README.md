@@ -58,8 +58,11 @@ To better contrast the two sets of activity, their plotted together in this diag
 
 My conclusion from the data is that cardholder 2 seems to have only regular transactions, while the transaction record of cardholder 18 does show suspicious spikes. I would suggest that all apppropriate measures be taken by cardholder 18. 
 
+Regarding the transactions of the customer with cardholder id of 25, the date is provided in a boxplot as seen below:
 
+![Cardholder 25 Transactions](Images/CH%2025.png)
 
+From this information, it does appear that her card was used for an expensive purchase once in January, and then again in March. Also in April, May, and multiple times in June. I suggest that she definitely take measures to secure that credit card account as soon as possible. 
 
 Additional measures for fraud detection - including standard deviation analysis and quartile review - are being pursued for further investigations. Results will be provided as soon as possible. 
 

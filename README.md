@@ -8,7 +8,37 @@ The goal of these analysis tools is to provide information about possible fraud 
 
 ### Part I - Vidual Data Analysis
 
-With this planner, your customers can update as needed the real estate datasets that are being analyzed. 
+Fraudsters sometimes make several small transactions on a credit card in order to avoid being caught. I isolated those transactions for each cardholder in Sql using the groupby function, and counted the number of transactions for each cardholder. Here are those results:
+
+| ccd_owner_id | number_ignored |
+|--------------|----------------|
+| 1            | 10             |
+| 2            | 11             |
+| 3            | 3              |
+| 4            | 16             |
+| 5            | 14             |
+| 6            | 6              |
+| 7            | 18             |
+| 8            | 15             |
+| 9            | 3              |
+| 10           | 20             |
+| 11           | 21             |
+| 12           | 26             |
+| 13           | 19             |
+| 14           | 9              |
+| 15           | 12             |
+| 16           | 19             |
+| 17           | 4              |
+| 18           | 19             |
+| 19           | 22             |
+| 20           | 18             |
+| 21           | 4              |
+| 22           | 7              |
+| 23           | 16             |
+| 24           | 22             |
+| 25           | 16             |
+
+Several of the cards do have a large number of those transactions. The card holders with the most small transactions are # 12, # 19 and # 24. The high quantities of small transactions for those card holders suggests that their cards have been hacked. 
 
 ### Part II - Interactive Visualizations Dashboard
 

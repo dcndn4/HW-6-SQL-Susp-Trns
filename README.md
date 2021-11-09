@@ -1,19 +1,18 @@
-# HW-6-SQL-Susp-Trns
-Homework 6 Unit 7 SQL Assnmnt_ Susp 
+#### *Sql_HW_6 which is related to Unit 7*
+# Looking for Suspicious Transactions
 
-So my required items include:
+This file accompanies Visual Data Analysis notebook being provided to my FinTech Company CFO.
 
-An image file of ERD
+## Goal of This Notebook 
+The goal of these analysis tools is to provide information about possible fraud patterns.
 
-A .sql file of table schemata
+### Part I - Vidual Data Analysis
 
-A .sql file of my queries
+With this planner, your customers can update as needed the real estate datasets that are being analyzed. 
 
-The starter Jupyter Lab notebook with my visual data analysis
+### Part II - Interactive Visualizations Dashboard
 
-This readme file with markdown report
-
-Optional: JL notebook with challenge assignment.
+This dashboard provides all the available information in a clear, easy-to-use format. 
 
 
 

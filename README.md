@@ -1,6 +1,6 @@
 #### *Sql_HW_6 which is related to Unit 7*
 
-![Focus on Fraud](main/Images/credit_card_fraudster.jpg)
+![Focus on Fraud](.../main/Images/credit_card_fraudster.jpg)
 
 # Looking for Suspicious Transactions
 
@@ -49,7 +49,8 @@ The remaining questions in this section are still under investigation.
 
 Regarding the transactions of customers with cardholder ids of 2 and 18, their  
 
-![Cardholder 2 Transactions](main/Images/CH%202%20Trns.png)
+![Cardholder 2 Transactions](.../main/Images/CH%202%20Trns.png)
+![Cardholder 18 Transactions](https://github.com/dcndn4/HW-6-SQL-Susp-Trns/blob/main/Images/CH%2018%20Trns.png)
 
 # Technical Notes
 

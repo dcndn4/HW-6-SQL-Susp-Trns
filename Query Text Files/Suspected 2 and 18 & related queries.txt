@@ -1,0 +1,52 @@
+DROP TABLE IF EXISTS credit_cards CASCADE;
+DROP TABLE IF EXISTS suspected CASCADE;
+DROP TABLE IF EXISTS transactions CASCADE;
+DROP TABLE IF EXISTS full_transactions CASCADE;
+
+SELECT * FROM credit_card;
+SELECT * FROM card_holder;
+SELECT * FROM suspected;
+
+
+
+	
+-- New table to practice accessing other non-pk fields (maybe with a foreign key that references the first table)
+CREATE TABLE transactions (
+    trans_id integer NOT null,
+	datetime date, 
+    amount float NOT NULL,
+    cc_nbr varchar(30) NOT NULL,
+	merch_id integer,
+    PRIMARY KEY (trans_id),
+    FOREIGN KEY (cc_nbr) REFERENCES credit_cards(cc_nbr) 
+);
+
+
+SELECT * FROM transactions;
+
+-- My new Join Tables into new table attempt
+CREATE Table full_transactions AS
+SELECT transactions.trans_id, transactions.datetime, transactions.amount, transactions.cc_nbr, cc.ccd_owner_id
+FROM transactions 
+JOIN credit_cards AS cc
+  ON transactions.cc_nbr = cc.ccd_nbr;
+
+SELECT * FROM full_transactions;
+
+CREATE Table suspected AS
+SELECT * from full_transactions
+where ccd_owner_id in ('2', '18');
+
+SELECT * FROM suspected;
+
+CREATE Table suspected_2 AS
+SELECT * from full_transactions
+where ccd_owner_id in ('2');
+
+SELECT * FROM suspected_2;
+
+CREATE Table suspected_18 AS
+SELECT * from full_transactions
+where ccd_owner_id in ('18');
+
+SELECT * FROM suspected_18;

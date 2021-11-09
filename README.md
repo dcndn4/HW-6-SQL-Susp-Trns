@@ -40,9 +40,11 @@ Fraudsters sometimes make several small transactions on a credit card in order t
 
 Several of the cards do have a large number of those transactions. The card holders with the most small transactions are # 12, # 19 and # 24. The high quantities of small transactions for those card holders suggests that their cards have been hacked. 
 
-### Part II - Interactive Visualizations Dashboard
+The remaining questions in this section are still under investigation.
 
-This dashboard provides all the available information in a clear, easy-to-use format. 
+### Part II - Visual Data Analysis of Fraudulent Transactions
+
+Regarding the transactions of customers with cardholder ids of 2 and 18, their  
 
 
 

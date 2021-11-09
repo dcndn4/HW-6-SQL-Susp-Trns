@@ -47,11 +47,21 @@ The remaining questions in this section are still under investigation.
 
 ### Part II - Visual Data Analysis of Fraudulent Transactions
 
-Regarding the transactions of customers with cardholder ids of 2 and 18, their  
+Regarding the transactions of customers with cardholder ids of 2 and 18, their transaction activity over the months in question is plotted here:
 
 ![Cardholder 2 Transactions](Images/CH%202%20Trns.png)
 ![Cardholder 18 Transactions](Images/CH%2018%20Trns.png)
+
+To better contrast the two sets of activity, their plotted together in this diagram:
+
 ![Both Cardholders Compared](Images/Both%20CH.png)
+
+My conclusion from the data is that cardholder 2 seems to have only regular transactions, while the transaction record of cardholder 18 does show suspicious spikes. I would suggest that all apppropriate measures be taken by cardholder 18. 
+
+
+
+
+Additional measures for fraud detection - including standard deviation analysis and quartile review - are being pursued for further investigations. Results will be provided as soon as possible. 
 
 # Technical Notes
 
